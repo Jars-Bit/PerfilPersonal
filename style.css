@@ -1,0 +1,139 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #b1cecf;
+}
+
+.contorno {
+    width: 1718px;
+    height: 535px;
+    background-color: #d0efef;
+    border-color: #759192;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 20px;
+    margin-top: 60px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.contenedor{
+    display: flex;
+}
+
+.inicio {
+    width: 300px;
+    height: 400px;
+    border-color: #92afb0;
+    border-style: groove;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    background-color: #eeffff;
+   
+}
+
+.foto {
+    margin-left: 5px;
+    margin-top: 5px;
+    width: 70.5%;
+    height: auto;
+    border-radius: 10px;
+    border-color: #92afb0;
+    border-style: groove;
+}
+
+h1 {
+    color: #eeffff;
+    border-color: #92afb0;
+    border-style: groove;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: #759192;
+}
+
+h2{
+    color: #eeffff;
+    background-color: #759192;
+    border-color: #92afb0;
+    border-style: groove;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-top: -1px;
+    margin-left: -1px;
+    margin-right: -1px;
+}
+
+p {
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.detalles {
+    width: 1200px;
+    height: 400px;
+    background-color: #eeffff;
+    border-color: #92afb0;
+    border-style: groove;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px; 
+}
+
+.list {
+    height: 400px;
+    background-color: #eeffff;
+    margin-top: 5px;
+    border-radius: 10px;
+    border-style: groove;
+    border-color: #92afb0;
+}
+
+ul li {
+	list-style: none;
+}
+
+ul li::before {
+	content: "►";
+	color: #759192;
+	display: inline-block;
+	width: 1em;
+	margin-left: -30px
+}
+
+.links {
+    display: flex;
+    width: 1693px;
+    height: 100px;
+    background-color: #eeffff;
+    border-radius: 10px;
+    border-color: #92afb0;
+    border-style: groove;
+    margin-left: 10px;
+}
+
+img {
+    width: 15%;
+   
+}
+
+.facebook {
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 10px;
+
+
+}
+
+.instagram {
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.github {
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 10px;
+}
